@@ -16,12 +16,12 @@ The structure of the firmware is based on the firmware hack of Niklas Fauth (htt
 ---
 
 #### Hardware
-![otter](https://github.com/flo199213/Hoverboard-Firmware-Hack-Gen2.1/blob/main/pins-board.jpg)
+![otter](https://github.com/krisstakos/Hoverboard-Firmware-Hack-Gen2.1/blob/main/pins-board.jpg)
 
 The hardware has two main boards, which are identical equipped. They are connected via USART. Additionally there are some LED PCB connected at LED1(battery indicator) and LED2(auxiliry lights). There is an programming connector for ST-Link/V2 and they break out GND, USART/I2C, 5V on a second pinhead(look at the picture).
 
 The reverse-engineered schematics of the mainboards can be found here(GEN 2):
-https://github.com/flo199213/Hoverboard-Firmware-Hack-Gen2.1/blob/main/Schematics/HoverBoard_CoolAndFun.pdf
+https://github.com/krisstakos/Hoverboard-Firmware-Hack-Gen2.1/blob/main/Schematics/HoverBoard_CoolAndFun.pdf
 
 
 ---
