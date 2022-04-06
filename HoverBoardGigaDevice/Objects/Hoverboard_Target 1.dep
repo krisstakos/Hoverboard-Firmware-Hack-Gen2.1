@@ -26,7 +26,7 @@ I (D:\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd
 I (D:\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEB744)
 I (D:\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB70070)
 I (Src\../Inc/setup.h)(0x5B86E057)
-I (Src\../Inc/../Inc/config.h)(0x5B86E057)
+I (Src\../Inc/../Inc/config.h)(0x624DEABC)
 I (Src\../Inc/defines.h)(0x624D9316)
 I (Src\../Inc/it.h)(0x5B86E057)
 I (Src\../Inc/bldc.h)(0x5B86E057)
@@ -63,7 +63,7 @@ I (D:\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd
 I (D:\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEB744)
 I (D:\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB70070)
 I (Src\../Inc/setup.h)(0x5B86E057)
-I (Src\../Inc/../Inc/config.h)(0x5B86E057)
+I (Src\../Inc/../Inc/config.h)(0x624DEABC)
 I (Src\../Inc/defines.h)(0x624D9316)
 F (.\Src\setup.c)(0x624D95F1)(-c --cpu Cortex-M3 -D__EVAL -O0 --apcs=interwork -I.\RTE\_Target_1-ID:\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-ID:\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\setup.o --omf_browse .\objects\setup.crf --depend .\objects\setup.d)
 I (D:\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAEB744)
@@ -91,7 +91,7 @@ I (D:\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd
 I (D:\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEB744)
 I (D:\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB70070)
 I (Src\../Inc/setup.h)(0x5B86E057)
-I (Src\../Inc/../Inc/config.h)(0x5B86E057)
+I (Src\../Inc/../Inc/config.h)(0x624DEABC)
 I (Src\../Inc/defines.h)(0x624D9316)
 I (Src\../Inc/it.h)(0x5B86E057)
 F (.\Src\it.c)(0x5B86E057)(-c --cpu Cortex-M3 -D__EVAL -O0 --apcs=interwork -I.\RTE\_Target_1-ID:\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-ID:\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\it.o --omf_browse .\objects\it.crf --depend .\objects\it.d)
@@ -120,7 +120,7 @@ I (D:\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd
 I (D:\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEB744)
 I (D:\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB70070)
 I (Src\../Inc/it.h)(0x5B86E057)
-I (Src\../Inc/../Inc/config.h)(0x5B86E057)
+I (Src\../Inc/../Inc/config.h)(0x624DEABC)
 I (Src\../Inc/defines.h)(0x624D9316)
 I (Src\../Inc/bldc.h)(0x5B86E057)
 I (Src\../Inc/led.h)(0x5B86E057)
@@ -178,7 +178,7 @@ I (D:\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd
 I (D:\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEB744)
 I (D:\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB70070)
 I (Src\../Inc/defines.h)(0x624D9316)
-I (Src\../Inc/../Inc/config.h)(0x5B86E057)
+I (Src\../Inc/../Inc/config.h)(0x624DEABC)
 I (Src\../Inc/setup.h)(0x5B86E057)
 I (Src\../Inc/comms.h)(0x5B86E057)
 I (Src\../Inc/commsMasterSlave.h)(0x5B86E057)
@@ -212,7 +212,7 @@ I (D:\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd
 I (D:\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEB744)
 I (D:\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB70070)
 I (Src\../Inc/it.h)(0x5B86E057)
-I (Src\../Inc/../Inc/config.h)(0x5B86E057)
+I (Src\../Inc/../Inc/config.h)(0x624DEABC)
 I (Src\../Inc/comms.h)(0x5B86E057)
 I (Src\../Inc/commsSteering.h)(0x5B86E057)
 I (Src\../Inc/setup.h)(0x5B86E057)
@@ -246,7 +246,7 @@ I (D:\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd
 I (D:\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEB744)
 I (D:\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB70070)
 I (Src\../Inc/it.h)(0x5B86E057)
-I (Src\../Inc/../Inc/config.h)(0x5B86E057)
+I (Src\../Inc/../Inc/config.h)(0x624DEABC)
 I (Src\../Inc/comms.h)(0x5B86E057)
 I (Src\../Inc/commsMasterSlave.h)(0x5B86E057)
 I (Src\../Inc/setup.h)(0x5B86E057)
@@ -280,10 +280,10 @@ I (D:\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd
 I (D:\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEB744)
 I (D:\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB70070)
 I (Src\../Inc/led.h)(0x5B86E057)
-I (Src\../Inc/../Inc/config.h)(0x5B86E057)
+I (Src\../Inc/../Inc/config.h)(0x624DEABC)
 I (Src\../Inc/defines.h)(0x624D9316)
 F (.\Inc\defines.h)(0x624D9316)()
-F (.\Inc\config.h)(0x5B86E057)()
+F (.\Inc\config.h)(0x624DEABC)()
 F (.\Inc\bldc.h)(0x5B86E057)()
 F (.\Inc\setup.h)(0x5B86E057)()
 F (.\Inc\it.h)(0x5B86E057)()

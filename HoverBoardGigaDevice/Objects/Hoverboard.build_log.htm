@@ -21,43 +21,44 @@ Target DLL:      UL2CM3.DLL V1.164.0.0
 Dialog DLL:      TCM.DLL V1.53.0.0
  
 <h2>Project:</h2>
-D:\Hoverboard-Firmware-Hack-Gen2-master\HoverBoardGigaDevice\Hoverboard.uvprojx
-Project File Date:  04/06/2022
+D:\Hoverboard-Firmware-Hack-Gen2.1-master\HoverBoardGigaDevice\Hoverboard.uvprojx
+Project File Date:  04/07/2022
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
 Rebuild target 'Target 1'
-compiling it.c...
-compiling commsBluetooth.c...
-compiling gd32f1x0_dbg.c...
-compiling led.c...
-compiling comms.c...
 compiling bldc.c...
-compiling main.c...
-compiling gd32f1x0_adc.c...
 compiling commsSteering.c...
-compiling commsMasterSlave.c...
+compiling commsBluetooth.c...
+compiling led.c...
+compiling main.c...
+compiling comms.c...
+compiling it.c...
+compiling gd32f1x0_dbg.c...
 compiling setup.c...
+compiling gd32f1x0_adc.c...
+compiling commsMasterSlave.c...
 compiling gd32f1x0_opa.c...
 compiling gd32f1x0_fwdgt.c...
 compiling gd32f1x0_gpio.c...
-compiling gd32f1x0_misc.c...
 compiling gd32f1x0_dma.c...
-compiling gd32f1x0_i2c.c...
+compiling gd32f1x0_misc.c...
 compiling gd32f1x0_pmu.c...
+compiling gd32f1x0_i2c.c...
 compiling gd32f1x0_syscfg.c...
 compiling gd32f1x0_rcu.c...
-compiling gd32f1x0_usart.c...
-compiling gd32f1x0_timer.c...
 assembling startup_gd32f1x0.s...
+compiling gd32f1x0_usart.c...
 compiling gd32f1x0_wwdgt.c...
+compiling gd32f1x0_timer.c...
 compiling system_gd32f1x0.c...
 linking...
 Program Size: Code=21892 RO-data=1128 RW-data=104 ZI-data=2288  
 After Build - User command #1: D:\Hoverboard-Firmware-Hack-Gen2-master\rename.bat
-D:\Hoverboard-Firmware-Hack-Gen2-master\HoverBoardGigaDevice>ren D:\Hoverboard-Firmware-Hack-Gen2-master\HoverBoardGigaDevice\Objects\Hoverboard.axf firmware.elf 
-D:\Hoverboard-Firmware-Hack-Gen2-master\HoverBoardGigaDevice>move D:\Hoverboard-Firmware-Hack-Gen2-master\HoverBoardGigaDevice\Objects\firmware.elf D:\hoverboard-sideboard-hack-GD-master\.pio\build\VARIANT_DEBUG\ 
-        1 file(s) moved.
+D:\Hoverboard-Firmware-Hack-Gen2.1-master\HoverBoardGigaDevice>ren D:\Hoverboard-Firmware-Hack-Gen2-master\HoverBoardGigaDevice\Objects\Hoverboard.axf firmware.elf 
+The system cannot find the path specified.
+D:\Hoverboard-Firmware-Hack-Gen2.1-master\HoverBoardGigaDevice>move D:\Hoverboard-Firmware-Hack-Gen2-master\HoverBoardGigaDevice\Objects\firmware.elf D:\hoverboard-sideboard-hack-GD-master\.pio\build\VARIANT_DEBUG\ 
+The system cannot find the path specified.
 ".\Objects\Hoverboard.axf" - 0 Error(s), 0 Warning(s).
 
 <h2>Software Packages used:</h2>
@@ -100,48 +101,48 @@ Package Vendor: GigaDevice
    * Component: ARM::CMSIS:CORE:5.5.0
 
    * Component: GigaDevice::Device:GD32F1x0_StdPeripherals:ADC:3.2.0
-      Source file:   Device\Firmware\Peripherals\src\gd32f1x0_adc.c
       Include file:  Device\Firmware\Peripherals\inc\gd32f1x0_adc.h
+      Source file:   Device\Firmware\Peripherals\src\gd32f1x0_adc.c
 
    * Component: GigaDevice::Device:GD32F1x0_StdPeripherals:DMA:3.2.0
-      Source file:   Device\Firmware\Peripherals\src\gd32f1x0_dma.c
       Include file:  Device\Firmware\Peripherals\inc\gd32f1x0_dma.h
+      Source file:   Device\Firmware\Peripherals\src\gd32f1x0_dma.c
 
    * Component: GigaDevice::Device:GD32F1x0_StdPeripherals:FWDGT:3.2.0
       Include file:  Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h
       Source file:   Device\Firmware\Peripherals\src\gd32f1x0_fwdgt.c
 
    * Component: GigaDevice::Device:GD32F1x0_StdPeripherals:GPIO:3.2.0
-      Source file:   Device\Firmware\Peripherals\src\gd32f1x0_gpio.c
       Include file:  Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h
+      Source file:   Device\Firmware\Peripherals\src\gd32f1x0_gpio.c
 
    * Component: GigaDevice::Device:GD32F1x0_StdPeripherals:I2C:3.2.0
-      Source file:   Device\Firmware\Peripherals\src\gd32f1x0_i2c.c
       Include file:  Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h
+      Source file:   Device\Firmware\Peripherals\src\gd32f1x0_i2c.c
 
    * Component: GigaDevice::Device:GD32F1x0_StdPeripherals:MCUDBG:3.2.0
-      Source file:   Device\Firmware\Peripherals\src\gd32f1x0_dbg.c
       Include file:  Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h
+      Source file:   Device\Firmware\Peripherals\src\gd32f1x0_dbg.c
 
    * Component: GigaDevice::Device:GD32F1x0_StdPeripherals:MISC:3.2.0
       Include file:  Device\Firmware\Peripherals\inc\gd32f1x0_misc.h
       Source file:   Device\Firmware\Peripherals\src\gd32f1x0_misc.c
 
    * Component: GigaDevice::Device:GD32F1x0_StdPeripherals:OPA:3.2.0
-      Source file:   Device\Firmware\Peripherals\src\gd32f1x0_opa.c
       Include file:  Device\Firmware\Peripherals\inc\gd32f1x0_opa.h
+      Source file:   Device\Firmware\Peripherals\src\gd32f1x0_opa.c
 
    * Component: GigaDevice::Device:GD32F1x0_StdPeripherals:PMU:3.2.0
       Include file:  Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h
       Source file:   Device\Firmware\Peripherals\src\gd32f1x0_pmu.c
 
    * Component: GigaDevice::Device:GD32F1x0_StdPeripherals:RCU:3.2.0
-      Source file:   Device\Firmware\Peripherals\src\gd32f1x0_rcu.c
       Include file:  Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h
+      Source file:   Device\Firmware\Peripherals\src\gd32f1x0_rcu.c
 
    * Component: GigaDevice::Device:GD32F1x0_StdPeripherals:SYSCFG:3.2.0
-      Source file:   Device\Firmware\Peripherals\src\gd32f1x0_syscfg.c
       Include file:  Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h
+      Source file:   Device\Firmware\Peripherals\src\gd32f1x0_syscfg.c
 
    * Component: GigaDevice::Device:GD32F1x0_StdPeripherals:TIMER:3.2.0
       Include file:  Device\Firmware\Peripherals\inc\gd32f1x0_timer.h
@@ -152,16 +153,16 @@ Package Vendor: GigaDevice
       Source file:   Device\Firmware\Peripherals\src\gd32f1x0_usart.c
 
    * Component: GigaDevice::Device:GD32F1x0_StdPeripherals:WWDGT:3.2.0
-      Source file:   Device\Firmware\Peripherals\src\gd32f1x0_wwdgt.c
       Include file:  Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h
+      Source file:   Device\Firmware\Peripherals\src\gd32f1x0_wwdgt.c
 
    * Component: GigaDevice::Device:GD32F1x0_libopt:3.2.0
       Include file:  Device\Include\gd32f1x0_libopt.h
 
    * Component: GigaDevice::Device:Startup:3.2.0
       Include file:  Device\Include\gd32f1x0.h
-      Source file:   Device\Source\startup_gd32f1x0.s
       Source file:   Device\Source\system_gd32f1x0.c
+      Source file:   Device\Source\startup_gd32f1x0.s
 Build Time Elapsed:  00:00:01
 </pre>
 </body>
